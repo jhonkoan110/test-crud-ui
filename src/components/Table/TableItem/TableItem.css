@@ -1,0 +1,82 @@
+.tableRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 1rem;
+    border: 1px solid #fff;
+    margin: 1rem 0;
+}
+
+.table-item-input {
+    background-color: #000;
+    border: none;
+    color: #fff;
+    outline: none;
+    font-size: 1rem;
+    font-family: Bahnschrift;
+}
+.table-item-input-edit-mode {
+    outline: 2px solid yellow;
+}
+
+
+.col {
+    padding: .5rem .5rem;
+    display: flex;
+}
+
+.col-1 {
+    flex-basis: 10%;
+}
+.col-2 {
+
+    flex-basis: 70%; 
+    /* display: flex; */
+    justify-content: flex-start;
+}
+
+.col-3 {
+    flex-basis: 40%;
+    margin-left: 1.5rem;
+    /* margin-right: 19rem; */
+}
+.col-4 {
+    flex-basis: 23%;
+    margin-left: 2rem;
+    /* margin-right: 11rem; */
+}
+
+.col-5 {
+    display: flex;
+    align-items: center;
+    flex-basis: 10%;
+}
+.buttons {
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+}
+.edit-button:hover {
+    color: burlywood;
+}
+.button-disabled {
+    color: gray;
+}
+
+
+.fa-plus-square-o:hover {
+    cursor: pointer;
+    color: chartreuse;
+}
+.fa-times {
+    margin-left: 1rem;
+    transform: translateY(-1px);
+}
+.fa-times:hover {
+    cursor: pointer;
+    color: red;
+}
+.fa-pencil-square-o:hover {
+    cursor: pointer;
+}
